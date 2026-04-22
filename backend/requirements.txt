@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+sqlalchemy>=2.0.36
+pydantic
+pydantic-settings
+python-dotenv
+pandas
+numpy
+tqdm
+python-multipart
+# Transformers/Torch left unpinned and optional for local startup
+transformers
+torch --index-url https://download.pytorch.org/whl/cpu
+scipy
+langgraph
+langchain-google-genai
